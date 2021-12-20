@@ -1,6 +1,7 @@
 .main {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
+  padding: 0 4%;
 }
 
 .title {
@@ -8,7 +9,7 @@
 }
 
 .publishedAt {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .post {
@@ -37,4 +38,15 @@
     list-style-type: decimal;
     list-style-position: inside;
   }
+}
+
+.category {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  background: lightgreen;
+  display: block;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 40px;
 }
